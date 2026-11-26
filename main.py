@@ -6,15 +6,16 @@ import os
 LINE = "I told HR my plant died from lack of sunlight; they said to file it under 'growth opportunities.'"
 
 def main():
-    out = "/output/entry.txt"
+    # Prefer the shared /output folder, but fall back to a local ./output when it is not writable.
+    target = "/output/entry.txt"
     try:
         os.makedirs("/output", exist_ok=True)
-        path = out
+        dest = target
     except OSError:
         os.makedirs("./output", exist_ok=True)
-        path = "./output/entry.txt"
+        dest = "./output/entry.txt"
     try:
-        with open(path, "w", encoding="utf-8") as f:
+        with open(dest, "w", encoding="utf-8") as f:
             f.write(LINE)
     except OSError:
         os.makedirs("./output", exist_ok=True)
