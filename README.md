@@ -16,7 +16,7 @@ The joke turns on the double meaning of "growth": the plant literally failed to 
 python3 main.py
 ```
 
-`main.py` (Python 3) runs offline, with no randomness and no timestamps: it always writes the same joke to `/output/entry.txt` (using `./output/entry.txt` when `/output` cannot be written). Two runs give byte-for-byte identical output.
+`main.py` needs only Python 3 and nothing else — no network, no random choices, no clock — so every run drops the identical joke into `/output/entry.txt` (or `./output/entry.txt` if `/output` is unavailable). Run it as many times as you like: the file comes out exactly the same each time.
 
 ---
 
