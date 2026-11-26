@@ -6,6 +6,10 @@
 
 One original one-line office joke (97 characters), written by `main.py` to `/output/entry.txt`, entered in make.fun's "One-Line Office Joke Laugh-Off" bounty. See the bounty page: https://make.fun/bounty/u-suzy-one-line-office-joke-laugh-off-f574ac73
 
+## Why this line works
+
+The joke turns on the double meaning of "growth": the plant literally failed to grow for lack of sunlight, while HR replies in pure corporate jargon, treating the death as a "growth opportunity." That clash — a genuine small loss met with a filing instruction — makes HR sound both absurdly bureaucratic and accidentally honest about how offices reframe failure.
+
 ## Run it
 
 ```sh
