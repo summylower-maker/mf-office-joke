@@ -1,4 +1,6 @@
-"""One-Line Office Joke Laugh-Off entry: writes one original one-line office joke to /output/entry.txt."""
+"""One-Line Office Joke Laugh-Off entry: writes one original one-line office joke to /output/entry.txt.
+
+The joke puns on "growth": a plant needs literal growth (sunlight), while HR answers with the corporate euphemism "growth opportunities," filing a dead plant as if it were a career plan."""
 import os
 
 JOKE = "I told HR my plant died from lack of sunlight; they said to file it under 'growth opportunities.'"
